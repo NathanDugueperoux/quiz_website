@@ -2,10 +2,8 @@ import streamlit as st
 
 st.header("Quiz")
 st.subheader("Choose a quiz:")
-world_quiz = st.button("world quiz")
 
-if world_quiz:
-    print("hello")
-
-
-
+if st.button("world quiz"):
+    st.switch_page("pages/world_quiz.py")
+if st.button("book quiz"):
+    st.switch_page("pages/book_quiz.py")
