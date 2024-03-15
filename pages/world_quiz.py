@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("# world quiz")
+st.markdown("## world quiz")
 st.write("")
 question_1 = st.radio("What is the capital city of England?",
                       ["London",

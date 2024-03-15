@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("# book quiz")
+st.markdown("## book quiz")
 st.write("")
 question_1 = st.radio("Who wrote Harry Potter?", ["Nathan Dugueperoux",
                                                   "J K Rowling",
